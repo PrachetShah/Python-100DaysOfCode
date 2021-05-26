@@ -65,10 +65,5 @@ print(logo)
 while input("\nDo you want to play a  game of BlackJack? Type 'y' or 'n' :") == 'y':
     play_game()
 
-
-
-
-
-
-
-
+from art import thanks
+print(thanks)
