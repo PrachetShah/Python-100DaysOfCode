@@ -15,20 +15,32 @@ def calculate_score(a_list):
         a_list.append(1)
     return sum(a_list)
 
+user_win = 0
+comp_win = 0
+
 def compare(user_score,computer_score):
+    global user_win
+    global comp_win
     if user_score == computer_score:
+        user_win += 1
         return "\nDraw 🙃"
     elif computer_score == 0:
+        comp_win += 1
         return "\nLose, opponent has BlackJack 😱"
     elif user_score == 0:
+        user_win += 1
         return "\nWin with a BlackJack 😎"
     elif user_score > 21:
+        comp_win += 1
         return "\nYou went over. You Lose 😭"
     elif computer_score > 21:
+        user_win += 1
         return "\nOpponent Went Over, You Win 😁"
     elif user_score > computer_score :
+        user_win += 1
         return "\nYou Win, your score is higher 😌"
     else:
+        comp_win += 1
         return "\nYou Lose, your score is lower than  computer's ☹️"
 
 def play_game():
@@ -64,6 +76,7 @@ def play_game():
 print(logo)
 while input("\nDo you want to play a  game of BlackJack? Type 'y' or 'n' :") == 'y':
     play_game()
-
+print(f"       You have won {user_win} times and computer has won {comp_win} times       ")
 from art import thanks
 print(thanks)
+
