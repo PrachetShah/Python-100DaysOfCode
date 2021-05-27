@@ -1,4 +1,4 @@
-<b>BlackKack / 21 Game in Python,
+<b>BlackJack / 21 Game in Python,
 <br/>Rules of BlackJack: </b> 
 <br/>Players are each dealt two cards, individually facing up or down depending on the casino and the table. In the U.S., the dealer is also dealt two cards, normally one up (exposed) and one down (hidden). In most other countries, the dealer only receives one card face up. The value of cards two through ten is their pip value (2 through 10). Face cards (Jack, Queen, and King) are all worth ten. Aces can be worth one or eleven. A hand's value is the sum of the card values. Players are allowed to draw additional cards to improve their hands. A hand with an ace valued as 11 is called "soft", meaning that the hand will be guaranteed to not score more than 21 by taking an additional card. The value of the ace will become one to prevent the hand from exceeding 21. Otherwise, the hand is called "hard". <br/>
 
