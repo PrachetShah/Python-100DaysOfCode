@@ -3,8 +3,8 @@ import pandas as pd
 import random
 import smtplib
 
-my_email = "testpythondays@gmail.com"
-password = "Python123"
+my_email = ENTER EMAIL
+password = ENTER PASSWORD
 
 day = dt.datetime.now()
 today_month = day.month
