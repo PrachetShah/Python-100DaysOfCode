@@ -6,8 +6,8 @@ import time
 # Mumbai Latitude and Longitude
 MY_LAT = 19.101803
 MY_LONG = 72.890353
-EMAIL = "testpythondays@gmail.com"
-PASS = "Python123"
+EMAIL = YOUR_EMAIL
+PASS = PASSWORD
 
 def is_iss_overhead():
     response = requests.get(url="http://api.open-notify.org/iss-now.json")
