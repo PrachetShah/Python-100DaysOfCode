@@ -15,9 +15,6 @@ NEWS_API_KEY = "YOUR OWN API KEY FROM NEWSAPI"
 TWILIO_SID = "YOUR TWILIO ACCOUNT SID"
 TWILIO_AUTH_TOKEN = "YOUR TWILIO AUTH TOKEN"
 
-## STEP 1: Use https://www.alphavantage.co/documentation/#daily
-# When stock price increase/decreases by 5% between yesterday and the day before yesterday then print("Get News").
-
 #Get yesterday's closing stock price
 stock_params = {
     "function": "TIME_SERIES_DAILY",
@@ -37,7 +34,7 @@ day_before_yesterday_data = data_list[1]
 day_before_yesterday_closing_price = day_before_yesterday_data["4. close"]
 print(day_before_yesterday_closing_price)
 
-#Find the positive difference between 1 and 2. e.g. 40 - 20 = -20, but the positive difference is 20. Hint: https://www.w3schools.com/python/ref_func_abs.asp
+#Find the positive difference between 1 and 2. e.g. 40 - 20 = -20, but the positive difference is 20. 
 difference = float(yesterday_closing_price) - float(day_before_yesterday_closing_price)
 up_down = None
 if difference > 0:
@@ -61,9 +58,7 @@ if abs(diff_percent) > 1:
     #Use Python slice operator to create a list that contains the first 3 articles. Hint: https://stackoverflow.com/questions/509211/understanding-slice-notation
     three_articles = articles[:3]
     print(three_articles)
-
-    ## STEP 3: Use Twilio to send a seperate message with each article's title and description to your phone number.
-
+    
     #Create a new list of the first 3 article's headline and description using list comprehension.
     formatted_articles = [f"{STOCK_NAME}: {up_down}{diff_percent}%\nHeadline: {article['title']}. \nBrief: {article['description']}" for article in three_articles]
     print(formatted_articles)
