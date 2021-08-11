@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to #100DaysOfCode</h1>
+<h1 align="center">🗓️ Welcome to #100DaysOfCode</h1>
 <h3 align="center">My Projects and Documentation from my Course Journey</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=prachetshah&label=Profile%20views&color=0e75b6&style=flat" alt="prachetshah" /> </p>
