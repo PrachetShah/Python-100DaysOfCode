@@ -1,5 +1,5 @@
 <h1 align="center">🗓️ Welcome to #100DaysOfCode</h1>
-<h3 align="center">My Projects and Documentation from my Course Journey</h3>
+<h3 align="center">Projects and Documentation from my 100DaysOfCode Journey, can be used for inspiration or ideas for projects</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=prachetshah&label=Profile%20views&color=0e75b6&style=flat" alt="prachetshah" /> </p>
 
@@ -8,6 +8,8 @@
 - 💬 Ask me about **any doubt or help needed in any Python Project**
 
 - 📫 How to reach me **prachetshah25@gmail.com**
+
+- 🤖 Learn more about me [Linkedin](https://www.linkedin.com/in/prachet-shah) / [Portfolio](https://prachet-portfolio.vercel.app/)
 
 <h3 align="left">Connect with me:</h3>
 <p align="center">
